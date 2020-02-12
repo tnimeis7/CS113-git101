@@ -1,0 +1,23 @@
+//Git 
+
+***สร้างไฟล์ git (by myself)
+1.สร้าง folder ที่ต้องการจะเก็บไฟล์ git 
+2.เปิด VSCode
+3.ลาก folder นั้น ใส่ VSCode
+4.เปิด Terminal
+5.พิมพ์คำสั่ง git init
+6.สร้างไฟล์ 
+7.add file ด้วยคำสั่ง git add ชื่อไฟล์.นามสกุลไฟล์
+8.ตั้งค่าชื่อและอีเมล (เครื่องส่วนตัว)
+	git config --global user.name "ชื่อ"
+	git config --global user.email "อีเมลล์"
+9.เช็คสเตตัสด้วยคำสั่ง git status
+10.Checkpoint ด้วยคำสั่ง git commit -m "ชื่อที่จะตั้งไว้เช็คพ้อย"
+11.เช็คว่ามีกี่ checkpoint และตอนนี้อยู่ที่เช็คพ้อยไหน ด้วยคำสั่ง
+    git log --all --decorate --oneline --graph
+12.เปิด github และสร้าง respository
+13.เชื่อม local repository โดยก้อปจากใน github
+14.ส่งไฟล์และประวัติไปเก็บที่ github ด้วยคำสั่ง git push -u origin master
+   (ครั้งแรกต้องใส่ Usename/Password ด้วย)
+   (ครั้งต่อๆไปใช้แค่คำสั่ง git push พอก็ได้)
++15.ถ้าเปลี่ยนเครื่อง แล้วอยากเอาไฟล์มาในเครื่อง ใช้  git clone <git-url>
